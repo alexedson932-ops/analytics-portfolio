@@ -1,4 +1,4 @@
-﻿/* General Settings */
+/* General Settings */
 
 * {
   margin: 0;
@@ -1789,4 +1789,14 @@ footer {
     .education-grid {
         grid-template-columns: 1fr;
     }
+}
+
+
+/* Hero background photo (put your picture at images/pc-background.jpg).
+   If the picture is missing, the original dark gradient shows instead. */
+.hero {
+  background:
+    linear-gradient(rgba(11, 17, 32, 0.80), rgba(11, 17, 32, 0.92)),
+    url("images/pc-background.jpg") center / cover no-repeat,
+    radial-gradient(circle at top right, #173252 0%, #0b1120 50%);
 }
