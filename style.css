@@ -1801,3 +1801,14 @@ footer {
     url("pc-background.jpg") center / cover no-repeat,
     radial-gradient(circle at top right, #173252 0%, #0b1120 50%);
 }
+
+
+/* Profile photo inside the circle */
+.profile-photo {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
